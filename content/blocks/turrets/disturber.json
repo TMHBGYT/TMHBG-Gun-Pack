@@ -1,0 +1,39 @@
+type: PowerTurret
+localizedName: Disturber
+description: Fires Freezing bullets at enemy targets.
+buildVisibility: shown
+health: 400
+size: 2
+category: turret
+buildCostMultiplier: 1.5
+range: 150
+reload: 20
+canOverdrive: false
+consumes: {
+  power: 1.25
+}
+recoil: 5
+shootSound: shootSnap
+shootCone: 2
+shootType: {
+	type: BasicBulletType
+    ammoMultiplier: 2
+	damage: 60
+	speed: 15
+	lifetime: 10
+	width: 8
+	height: 8
+    pierceDamageFactor: 80
+	pierceCap:6
+    pierce: true
+    status: freezing
+	frontColor: 91c3ff
+    backColor: 91c3ff
+}
+research: salvo
+alwaysUnlocked: false
+requirements: [
+	copper/250
+	titanium/70
+    graphite/150
+]

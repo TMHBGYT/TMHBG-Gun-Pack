@@ -1,0 +1,30 @@
+type: GenericCrafter
+size: 2
+hasPower: true
+hasItems: true
+craftEffect: {
+  type: ParticleEffect
+  lifetime: 35
+  length: 8
+  colorTo: 7382f0
+}
+flameColor: 90a2fc
+consumes: {
+  power: 1.5
+  items: {
+    items: [
+      pyratite/10
+	  blast-compound/10
+	  silicon/10
+    ]
+  }
+}
+craftTime: 80
+outputItem: highly-explosive-ammunition/5
+category: crafting
+research: silicon-smelter
+requirements: [
+  copper/100
+  lead/5
+  graphite/55
+]

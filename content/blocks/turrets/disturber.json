@@ -9,6 +9,12 @@ buildCostMultiplier: 1.5
 range: 150
 reload: 20
 canOverdrive: false
+"coolantMultiplier": 0.5,
+  "consumes": {
+    "coolant": {
+      "amount": 1
+    }
+  },
 consumes: {
   power: 1.25
 }

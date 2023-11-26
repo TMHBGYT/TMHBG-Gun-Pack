@@ -1,0 +1,55 @@
+type: ItemTurret
+localizedName:Rixeon
+description:Fires A large Cluster of long range high damage rockets.
+health: 200
+size: 3
+rotateSpeed: 3.1
+reload: 2500
+recoil: 5
+restitution: 0.02
+range: 600
+"coolantMultiplier": 0.3,
+  "consumes": {
+    "coolant": {
+      "amount": 1
+    }
+  },
+shoot: {
+   type: ShootAlternate
+   shots: 15
+   spread: 0
+   shotDelay: 10
+}
+ammoTypes: {
+  silicon: {
+    type: MissileBulletType
+    damage: 300
+    lifetime: 600
+    splashDamage: 750
+    splashDamageRadius: 60
+    sprite: tmhbg-gun-mod-rixeon-bullet
+    width: 5
+    height: 10
+    frontColor: 6a6c7a
+    backColor: ffffff
+    fragBullets: 24
+    fragLifeMin: 0.3
+    fragBullet: {
+      damage: 60
+      speed: 4
+      lifetime: 10
+      height: 9
+      width: 4
+      frontColor: eff2ac
+      backColor: cedb84
+    }
+  }
+}
+requirements: [
+  surge-alloy/300
+  copper/1000
+  thorium/500
+]
+category: turret
+research: ripple
+shootSound: bigshot

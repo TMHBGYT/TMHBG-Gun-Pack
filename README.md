@@ -1,7 +1,7 @@
 # TMHBG-Gun-Pack
-A Gun pack consisting of 4 guns based of the Salvo another Salvo,Ripple and Spectre
+A Gun pack consisting of 5 guns based of the Salvo another Salvo,Cyclone,Ripple and Spectre
 
-Current Content:4 Guns,2 items and 2 crafters
+Current Content:5 Guns,2 items and 2 crafters
 Plans:
 
 1.Add more guns                                          -Eeehm kinda?

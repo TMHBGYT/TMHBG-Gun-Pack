@@ -27,7 +27,7 @@ ammoTypes: {
     lifetime: 600
     splashDamage: 750
     splashDamageRadius: 60
-    sprite: tmhbg-gun-mod-rixeon-bullet
+    sprite: gunz-rixeon-bullet
     width: 5
     height: 10
     frontColor: 6a6c7a
